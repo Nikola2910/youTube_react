@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #121212;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header .main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
